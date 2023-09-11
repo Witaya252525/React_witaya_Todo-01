@@ -2,11 +2,8 @@
 
 Sep_10
 
-
 Success! Created react_witaya at C:\Users\Lenovo\OneDrive\GitHub 2024\React_Tutorial\react_witaya
-
 Compiled successfully!
-
 You can now view react_witaya in the browser.
 
   Local:            http://localhost:3000
@@ -14,26 +11,24 @@ You can now view react_witaya in the browser.
 
 Note that the development build is not optimized.
 To create a production build, use npm run build.
-
 webpack compiled successfully
 
  *  History restored 
-
 Microsoft Windows [Version 10.0.22621.2134]
 (c) Microsoft Corporation. All rights reserved.
-
 C:\Users\Lenovo\OneDrive\GitHub 2024\React_Tutorial>
 
 div  id = "root"
 1.App.js >> and index.jS >>Index.html
 2.What is dom and what is react dom
 3.virtual dom  work only component that update.
-4.Component / state / pop
-5.JSX work on return off App.js
-6.Return HTML tAg more than one must with in  div
+4.Component / state / props
+5.JSX work on return  /// App.js
+6.Return HTML tAg more than one must with in  div /article / Fragment /section
 7.What is Fragment <>
 8.Tag article
-9.State step1
+9.On index.js must import dom from react
+10.State step_1
 import { useState } from "react";
 function App() {
   const [count, setCount] = useState(0);
@@ -51,3 +46,16 @@ function App() {
 export default App;
 
 
+11.Dom = Document Object Model  โครงสร้าง  HTML
+12.JSX is JavaScript XML
+13.What is react hook ?  UseState /UseEffect /useReducer / useContext / UseMemo / useCallBack
+14.React hook เขียนใน Functional Compoment เเละเขียนในส่วนของ Top-level ของ fUNCTION  อย่าเขียนใน condition loop ,Nested Function นอกจากจะเขียน Custom Hook
+15.
+import { useState } from "react";
+function App() {
+  const [count ชื่อ, ชื่อ function setCount] = useState(0); // ค่าเริ่มต้น  ::: จะได้ Arrey ที่ Destructuring จาก useState
+  const[name ,setName] = useState ("kongraksiam")
+  const[age ,setAge] = useStae (30)
+
+16.What is different btw let , const , 
+17.การใช้งาน React extension , component
