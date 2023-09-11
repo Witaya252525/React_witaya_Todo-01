@@ -2,8 +2,11 @@
 
 Sep_10
 
+
 Success! Created react_witaya at C:\Users\Lenovo\OneDrive\GitHub 2024\React_Tutorial\react_witaya
+
 Compiled successfully!
+
 You can now view react_witaya in the browser.
 
   Local:            http://localhost:3000
@@ -11,23 +14,26 @@ You can now view react_witaya in the browser.
 
 Note that the development build is not optimized.
 To create a production build, use npm run build.
+
 webpack compiled successfully
 
  *  History restored 
+
 Microsoft Windows [Version 10.0.22621.2134]
 (c) Microsoft Corporation. All rights reserved.
+
 C:\Users\Lenovo\OneDrive\GitHub 2024\React_Tutorial>
 
 div  id = "root"
 1.App.js >> and index.jS >>Index.html
 2.What is dom and what is react dom
 3.virtual dom  work only component that update.
-4.Component / state / props
-5.JSX work on return  /// App.js
+4.Component / state / pop
+5.JSX work on return off App.js
 6.Return HTML tAg more than one must with in  div
 7.What is Fragment <>
 8.Tag article
-9.State step_1
+9.State step1
 import { useState } from "react";
 function App() {
   const [count, setCount] = useState(0);
